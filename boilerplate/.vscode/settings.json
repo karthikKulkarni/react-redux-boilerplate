@@ -1,0 +1,31 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "typescript.check.npmIsInstalled": false,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "editor.fontLigatures": true,
+  "eslint.autoFixOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "gitlens.keymap": "alternate",
+  "gitlens.historyExplorer.enabled": true,
+  "[javascript]": {
+    "togglequotes.chars": ["'", ""]
+  },
+  "[javascriptreact]": {
+    "togglequotes.chars": ["'", ""]
+  },
+  "[markdown]": {
+    "togglequotes.chars": ["'", ""]
+  },
+  "[typescript]": {
+    "togglequotes.chars": ["'", ""]
+  },
+  "[typescriptreact]": {
+    "togglequotes.chars": ["'", ""]
+  }
+}
