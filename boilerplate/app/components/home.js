@@ -70,7 +70,7 @@ class Home extends Component {
           <TouchableHighlight
             style={styles.addButton}
             underlayColor="#ff7043"
-            onPress={() => Actions.new_quote()}
+            onPress={() => Actions.events()}
           >
             <Text style={{ fontSize: 25, color: "white" }}>+</Text>
           </TouchableHighlight>
