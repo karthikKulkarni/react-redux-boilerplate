@@ -50,6 +50,7 @@ class Events extends Component {
   }
 
   render() {
+    setTimeout(() => this.refs.flatList.scrollToEnd(), 200);
     if (this.props.loading) {
       return (
         <View style={styles.activityIndicatorContainer}>
@@ -61,7 +62,7 @@ class Events extends Component {
         <View style={styles.container}>
           <FlatList
             style={styles.listContainer}
-            ref="listRef"
+            ref="flatList"
             data={this.props.quotes}
             renderItem={this.renderItem}
             keyExtractor={(item, index) => index.toString()}
