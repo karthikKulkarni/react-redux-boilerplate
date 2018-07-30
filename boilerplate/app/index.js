@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { View, AsyncStorage } from "react-native";
 import { Router, Scene } from "react-native-router-flux";
-import Home from "./components/home";
-import NewQuote from "./components/new_quote";
+import Events from "./components/Events/Events";
+import EditEvent from "./components/Events/EditEvent";
 import Data from "./quotes.json";
 import { connect } from "react-redux";
 import { getQuotes } from "./actions";
-import Events from "./components/EventsSummary/Events";
 
 class Main extends Component {
   componentDidMount() {
@@ -26,9 +25,8 @@ class Main extends Component {
     return (
       <Router>
         <Scene key="root">
-          <Scene key="home" component={Home} title="Home" initial />
-          <Scene key="new_quote" component={NewQuote} title="New Quote" />
           <Scene key="events" component={Events} title="Events" />
+          <Scene key="editEvent" component={EditEvent} title="Edit Event" />
         </Scene>
       </Router>
     );

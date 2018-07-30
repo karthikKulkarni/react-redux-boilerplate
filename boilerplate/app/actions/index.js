@@ -11,7 +11,6 @@ export function addQuote(quote) {
     AsyncStorage.getItem("data", (err, quotes) => {
       if (quotes !== null) {
         quotes = JSON.parse(quotes);
-        quotes.unshift(quote); //add the new quote to the top
         AsyncStorage.setItem("data", JSON.stringify(quotes), () => {
           dispatch({ type: ADD_QUOTE, quote: quote });
         });

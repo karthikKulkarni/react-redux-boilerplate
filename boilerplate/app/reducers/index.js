@@ -5,7 +5,7 @@ import {
   ADD_QUOTE,
   UPDATE_QUOTE,
   DELETE_QUOTE
-} from "../actions/"; //Import the actions types constant we defined in our actions
+} from "../actions"; //Import the actions types constant we defined in our actions
 
 let dataState = { quotes: [], loading: true };
 
@@ -13,7 +13,7 @@ const dataReducer = (state = dataState, action) => {
   switch (action.type) {
     case ADD_QUOTE: {
       let quotes = cloneObject(state.quotes); //clone the current state
-      quotes.unshift(action.quote); //add the new quote to the top
+      quotes = [...quotes, action.quote]; //add the new quote to the top
       state = Object.assign({}, state, { quotes: quotes });
       return state;
     }
