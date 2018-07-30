@@ -6,7 +6,7 @@ export const DELETE_QUOTE = "DELETE_QUOTE";
 import { AsyncStorage } from "react-native";
 
 // Add Quote - CREATE (C)
-export function addQuote(quote) {
+export function addQuoteAction(quote) {
   return dispatch => {
     AsyncStorage.getItem("data", (err, quotes) => {
       if (quotes !== null) {
