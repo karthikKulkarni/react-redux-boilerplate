@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { View, AsyncStorage } from "react-native";
 import { Router, Scene } from "react-native-router-flux";
 import Events from "./components/Events/Events";
+
+import Gallery from "./components/Gallery/Gallery";
+import GalleryWebP from "./components/GalleryWebP/GalleryWebP";
 import EditEvent from "./components/Events/EditEvent";
 import Data from "./quotes.json";
 import { connect } from "react-redux";
@@ -25,7 +28,13 @@ class Main extends Component {
     return (
       <Router>
         <Scene key="root">
-          <Scene key="events" component={Events} title="Events" />
+          <Scene key="gallery" component={Gallery} title="Gallery" />
+          <Scene
+            key="galleryWebP"
+            component={GalleryWebP}
+            title="Gallery WebP"
+          />
+          <Scene key="events" component={Events} title="Events" initial />
           <Scene key="editEvent" component={EditEvent} title="Edit Event" />
         </Scene>
       </Router>

@@ -17,7 +17,8 @@ import styles from "./EventsStyle";
 import BackgroundView from "../Background/BackgroundView";
 
 //Buttons for Action Sheet
-const BUTTONS = ["Edit", "Delete", "Cancel"];
+// const BUTTONS = ["Edit", "Delete", "Cancel"];
+const BUTTONS = ["Gallery", "Gallery WebP", "Cancel"];
 
 const CANCEL_INDEX = 2;
 
@@ -43,9 +44,13 @@ class Events extends Component {
         destructiveButtonIndex: 1
       },
       buttonIndex => {
-        if (buttonIndex === 0)
-          Actions.editEvent({ quote: quote, edit: true, title: "Edit Event" });
-        else if (buttonIndex === 1) this.props.deleteQuote(quote.id);
+        if (buttonIndex === 0) {
+          Actions.gallery();
+          // Actions.editEvent({ quote: quote, edit: true, title: "Edit Event" });
+        } else if (buttonIndex === 1) {
+          Actions.galleryWebP();
+          // this.props.deleteQuote(quote.id);
+        }
       }
     );
   }
