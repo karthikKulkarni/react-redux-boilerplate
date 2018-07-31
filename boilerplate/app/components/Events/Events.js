@@ -14,6 +14,7 @@ import * as ReduxActions from "../../actions"; //Import your actions
 import { Actions } from "react-native-router-flux";
 import NewEventText from "./NewEventText";
 import styles from "./EventsStyle";
+import BackgroundView from "../Background/BackgroundView";
 
 //Buttons for Action Sheet
 const BUTTONS = ["Edit", "Delete", "Cancel"];
@@ -54,12 +55,14 @@ class Events extends Component {
     if (this.props.loading) {
       return (
         <View style={styles.activityIndicatorContainer}>
+          <BackgroundView />
           <ActivityIndicator animating={true} />
         </View>
       );
     } else {
       return (
         <View style={styles.container}>
+          <BackgroundView />
           <FlatList
             style={styles.listContainer}
             ref="flatList"

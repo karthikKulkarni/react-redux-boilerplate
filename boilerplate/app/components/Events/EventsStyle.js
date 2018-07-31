@@ -3,8 +3,7 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "column",
-    backgroundColor: "#722C38"
+    flexDirection: "column"
   },
 
   activityIndicatorContainer: {
@@ -21,17 +20,19 @@ export default StyleSheet.create({
   },
 
   author: {
+    color: "white",
     fontSize: 14,
     fontWeight: "600",
     marginTop: 8 * 2
   },
 
   quote: {
+    color: "white",
     marginTop: 5,
     fontSize: 14
   },
+
   listContainer: {
-    backgroundColor: "#ecf5fd",
     height: 50
   }
 });
