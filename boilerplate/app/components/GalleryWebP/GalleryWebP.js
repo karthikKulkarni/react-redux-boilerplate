@@ -61,311 +61,59 @@ export default class GalleryWebP extends Component {
       photos: [
         {
           label: "beach",
-          src: require("./a1.jpg")
+          src: require("./a1.webp")
         },
         {
           label: "bridge",
-          src: require("./a2.jpeg")
+          src: require("./a2.webp")
         },
         {
           label: "fields",
-          src: require("./a3.jpg")
-        },
-        {
-          label: "mountains",
-          src: require("./a4.jpg")
+          src: require("./a3.webp")
         },
         {
           label: "sunflower",
-          src: require("./a5.jpg")
+          src: require("./a5.webp")
         },
         {
           label: "sunset",
-          src: require("./a6.jpg")
+          src: require("./a6.webp")
         },
         {
           label: "lake",
-          src: require("./a7.jpg")
+          src: require("./a7.webp")
         },
         {
           label: "nature",
-          src: require("./a8.jpeg")
+          src: require("./a8.webp")
         },
         {
           label: "pink",
-          src: require("./a9.jpg")
-        },
-        {
-          label: "rails",
-          src: require("./a10.jpeg")
+          src: require("./a9.webp")
         },
         {
           label: "beach",
-          src: require("./a11.jpeg")
-        },
-        {
-          label: "bridge",
-          src: require("./a12.jpeg")
+          src: require("./a11.webp")
         },
         {
           label: "fields",
-          src: require("./a13.jpg")
+          src: require("./a13.webp")
         },
         {
           label: "mountains",
-          src: require("./a14.jpg")
+          src: require("./a14.webp")
         },
         {
           label: "sunflower",
-          src: require("./a15.jpeg")
-        },
-        {
-          label: "sunset",
-          src: require("./a16.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a17.jpeg")
+          src: require("./a21.webp")
         },
         {
           label: "nature",
-          src: require("./a18.jpeg")
+          src: require("./a24.webp")
         },
         {
           label: "pink",
-          src: require("./a19.jpeg")
-        },
-        {
-          label: "rails",
-          src: require("./a20.jpeg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a21.jpg")
-        },
-        {
-          label: "sunset",
-          src: require("./a22.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a23.jpeg")
-        },
-        {
-          label: "nature",
-          src: require("./a24.jpg")
-        },
-        {
-          label: "pink",
-          src: require("./a25.jpg")
-        },
-        {
-          label: "beach",
-          src: require("./a1.jpg")
-        },
-        {
-          label: "bridge",
-          src: require("./a2.jpeg")
-        },
-        {
-          label: "fields",
-          src: require("./a3.jpg")
-        },
-        {
-          label: "mountains",
-          src: require("./a4.jpg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a5.jpg")
-        },
-        {
-          label: "sunset",
-          src: require("./a6.jpg")
-        },
-        {
-          label: "lake",
-          src: require("./a7.jpg")
-        },
-        {
-          label: "nature",
-          src: require("./a8.jpeg")
-        },
-        {
-          label: "pink",
-          src: require("./a9.jpg")
-        },
-        {
-          label: "rails",
-          src: require("./a10.jpeg")
-        },
-        {
-          label: "beach",
-          src: require("./a11.jpeg")
-        },
-        {
-          label: "bridge",
-          src: require("./a12.jpeg")
-        },
-        {
-          label: "fields",
-          src: require("./a13.jpg")
-        },
-        {
-          label: "mountains",
-          src: require("./a14.jpg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a15.jpeg")
-        },
-        {
-          label: "sunset",
-          src: require("./a16.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a17.jpeg")
-        },
-        {
-          label: "nature",
-          src: require("./a18.jpeg")
-        },
-        {
-          label: "pink",
-          src: require("./a19.jpeg")
-        },
-        {
-          label: "rails",
-          src: require("./a20.jpeg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a21.jpg")
-        },
-        {
-          label: "sunset",
-          src: require("./a22.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a23.jpeg")
-        },
-        {
-          label: "nature",
-          src: require("./a24.jpg")
-        },
-        {
-          label: "pink",
-          src: require("./a25.jpg")
-        },
-        {
-          label: "beach",
-          src: require("./a1.jpg")
-        },
-        {
-          label: "bridge",
-          src: require("./a2.jpeg")
-        },
-        {
-          label: "fields",
-          src: require("./a3.jpg")
-        },
-        {
-          label: "mountains",
-          src: require("./a4.jpg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a5.jpg")
-        },
-        {
-          label: "sunset",
-          src: require("./a6.jpg")
-        },
-        {
-          label: "lake",
-          src: require("./a7.jpg")
-        },
-        {
-          label: "nature",
-          src: require("./a8.jpeg")
-        },
-        {
-          label: "pink",
-          src: require("./a9.jpg")
-        },
-        {
-          label: "rails",
-          src: require("./a10.jpeg")
-        },
-        {
-          label: "beach",
-          src: require("./a11.jpeg")
-        },
-        {
-          label: "bridge",
-          src: require("./a12.jpeg")
-        },
-        {
-          label: "fields",
-          src: require("./a13.jpg")
-        },
-        {
-          label: "mountains",
-          src: require("./a14.jpg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a15.jpeg")
-        },
-        {
-          label: "sunset",
-          src: require("./a16.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a17.jpeg")
-        },
-        {
-          label: "nature",
-          src: require("./a18.jpeg")
-        },
-        {
-          label: "pink",
-          src: require("./a19.jpeg")
-        },
-        {
-          label: "rails",
-          src: require("./a20.jpeg")
-        },
-        {
-          label: "sunflower",
-          src: require("./a21.jpg")
-        },
-        {
-          label: "sunset",
-          src: require("./a22.jpeg")
-        },
-        {
-          label: "lake",
-          src: require("./a23.jpeg")
-        },
-        {
-          label: "nature",
-          src: require("./a24.jpg")
-        },
-        {
-          label: "pink",
-          src: require("./a25.jpg")
-        },
-        {
-          label: "beach",
-          src: require("./a1.jpg")
-        },
-        {
-          label: "bridge",
-          src: require("./a2.jpeg")
+          src: require("./a25.webp")
         }
       ]
     };
